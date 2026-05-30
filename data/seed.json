@@ -1,0 +1,204 @@
+{
+  "commonDocuments": [
+    {
+      "id": "doc-benefits",
+      "name": "Benefits Guide 2024.pdf",
+      "uploaded": "May 20, 2024",
+      "size": "2.4 MB",
+      "page": "Page 4",
+      "text": "Benefits include medical, dental, vision, life insurance, disability coverage, and commuter benefits. Coverage begins on the first day of the month after the employee start date."
+    },
+    {
+      "id": "doc-equity",
+      "name": "Equity FAQ.pdf",
+      "uploaded": "May 18, 2024",
+      "size": "1.1 MB",
+      "page": "Page 3",
+      "text": "Vested options generally must be exercised within 90 days after leaving the company. Unvested options are typically forfeited when employment ends. The FAQ does not specify whether early exercise is allowed."
+    },
+    {
+      "id": "doc-stock-options",
+      "name": "Stock Option Plan Summary.pdf",
+      "uploaded": "May 18, 2024",
+      "size": "852 KB",
+      "page": "Page 7",
+      "text": "The stock option agreement describes vesting, exercise requirements, and post-termination treatment. Section 4.2 covers the post-termination exercise window."
+    },
+    {
+      "id": "doc-pto",
+      "name": "PTO Policy.pdf",
+      "uploaded": "May 10, 2024",
+      "size": "620 KB",
+      "page": "Page 2",
+      "text": "Employees can request flexible paid time off with manager approval. Planned absences should be submitted in the HR system before travel or extended leave."
+    }
+  ],
+  "documents": [
+    {
+      "id": "alex-offer-letter",
+      "candidateId": "alex-rivera",
+      "name": "Offer Letter - Alex Rivera.pdf",
+      "uploaded": "May 21, 2024",
+      "size": "488 KB",
+      "page": "Page 1",
+      "text": "Alex Rivera has been offered the Senior Software Engineer role with a target start date of June 17, 2024. Compensation details are contained in the compensation exhibit."
+    },
+    {
+      "id": "alex-equity-grant",
+      "candidateId": "alex-rivera",
+      "name": "Stock Option Agreement - Section 4.2",
+      "uploaded": "May 21, 2024",
+      "size": "704 KB",
+      "page": "Page 7",
+      "text": "Section 4.2 states that vested options remain exercisable for 90 days after service terminates, unless a longer period is required by law or stated in the grant notice."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "alex-rivera",
+      "initials": "AR",
+      "name": "Alex Rivera",
+      "email": "alex.rivera@email.com",
+      "role": "Senior Software Engineer",
+      "status": "Invited",
+      "offerDocs": "2 files",
+      "offerDetails": "Completed",
+      "updated": "May 21, 2024",
+      "color": "purple",
+      "token": "demo-token-alex",
+      "folderId": "mock-alex-rivera",
+      "intelligence": [
+        {
+          "title": "GitHub active",
+          "text": "Pushed 7 commits in the last 30 days"
+        },
+        {
+          "title": "LinkedIn updated",
+          "text": "Added 2 new roles in the past 60 days"
+        },
+        {
+          "title": "Blog post about AI infra",
+          "text": "Published on May 6, 2024"
+        }
+      ]
+    },
+    {
+      "id": "sarah-patel",
+      "initials": "SP",
+      "name": "Sarah Patel",
+      "email": "sarah.patel@email.com",
+      "role": "Product Manager",
+      "status": "Invited",
+      "offerDocs": "No files",
+      "offerDetails": "Not added",
+      "updated": "May 20, 2024",
+      "color": "gold",
+      "token": "demo-token-sarah",
+      "folderId": "mock-sarah-patel",
+      "intelligence": []
+    },
+    {
+      "id": "michael-chen",
+      "initials": "MC",
+      "name": "Michael Chen",
+      "email": "michael.chen@email.com",
+      "role": "Backend Engineer",
+      "status": "Active",
+      "offerDocs": "1 file",
+      "offerDetails": "Completed",
+      "updated": "May 19, 2024",
+      "color": "teal",
+      "token": "demo-token-michael",
+      "folderId": "mock-michael-chen",
+      "intelligence": []
+    },
+    {
+      "id": "emma-thompson",
+      "initials": "ET",
+      "name": "Emma Thompson",
+      "email": "emma.thompson@email.com",
+      "role": "Design Lead",
+      "status": "Invited",
+      "offerDocs": "No files",
+      "offerDetails": "Not added",
+      "updated": "May 18, 2024",
+      "color": "peach",
+      "token": "demo-token-emma",
+      "folderId": "mock-emma-thompson",
+      "intelligence": []
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1",
+      "candidateId": "alex-rivera",
+      "role": "candidate",
+      "text": "What is the exercise window after I leave?",
+      "createdAt": "2024-05-21T10:23:00.000Z"
+    },
+    {
+      "id": "msg-2",
+      "candidateId": "alex-rivera",
+      "role": "assistant",
+      "text": "Based on the company's Equity FAQ, vested options generally must be exercised within 90 days after leaving the company. Unvested options are typically forfeited when employment ends.",
+      "classification": "green",
+      "provider": "mock",
+      "sources": [
+        {
+          "id": "doc-equity",
+          "name": "Equity FAQ - Post-termination exercise",
+          "page": "Page 3"
+        },
+        {
+          "id": "alex-equity-grant",
+          "name": "Stock Option Agreement - Section 4.2",
+          "page": "Page 7"
+        }
+      ],
+      "createdAt": "2024-05-21T10:23:04.000Z"
+    },
+    {
+      "id": "msg-3",
+      "candidateId": "alex-rivera",
+      "role": "candidate",
+      "text": "Can I early exercise my options?",
+      "createdAt": "2024-05-21T10:27:00.000Z"
+    },
+    {
+      "id": "msg-4",
+      "candidateId": "alex-rivera",
+      "role": "assistant",
+      "text": "I couldn't find a clear answer in the documents provided. The documents don't specify whether early exercise is allowed. Please confirm this with Acme or your recruiter.",
+      "classification": "green",
+      "provider": "mock",
+      "sources": [
+        {
+          "id": "doc-equity",
+          "name": "Equity FAQ",
+          "page": "Page 3"
+        },
+        {
+          "id": "alex-equity-grant",
+          "name": "Stock Option Agreement",
+          "page": "Page 7"
+        }
+      ],
+      "createdAt": "2024-05-21T10:27:05.000Z"
+    }
+  ],
+  "escalations": [
+    {
+      "id": "esc-comp",
+      "candidateId": "alex-rivera",
+      "candidateName": "Alex Rivera",
+      "question": "Can compensation be adjusted?",
+      "category": "Offer modification",
+      "priority": "High",
+      "status": "Open",
+      "recommendation": "Recruiter should confirm base salary and equity details with the compensation team.",
+      "createdAt": "2024-05-21T11:00:00.000Z"
+    }
+  ],
+  "auditLog": [],
+  "integrationEvents": []
+}
