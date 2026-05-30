@@ -5,12 +5,12 @@ This project is ready locally on branch `main`.
 ## Current Repo
 
 - Local folder: `/Users/jeetparekh/Documents/New project`
-- Remote: `https://github.com/supriya-reddy-b/proj_bellevue.git`
-- Latest local commit: `bf78391 Add offer portal dashboard and chat UI`
+- Remote: `https://github.com/jeetiitbhu/offerOS.git`
+- Latest local commit: `57fd2b2 Remove unused prototype image`
 
 ## What Is Still Needed
 
-GitHub push access is not configured on this machine. The current HTTPS remote fails because Git cannot read a GitHub username/token locally.
+GitHub CLI push access is not configured on this machine. The HTTPS remote fails from the local shell because Git cannot read a GitHub username/token locally.
 
 To publish the project for teammates:
 
@@ -45,5 +45,5 @@ git clone offeros-team-share.bundle offeros
 After the GitHub repo is available, they can add the remote:
 
 ```bash
-git remote add origin https://github.com/supriya-reddy-b/proj_bellevue.git
+git remote add origin https://github.com/jeetiitbhu/offerOS.git
 ```
