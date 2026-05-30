@@ -7,9 +7,7 @@ const root = process.cwd();
 const textExtensions = new Set([".css", ".html", ".js", ".json", ".mjs", ".txt"]);
 const staticFiles = [
   "index.html",
-  "public/images/community-hero.png",
   "src/app.js",
-  "src/resources.js",
   "src/styles.css"
 ];
 
