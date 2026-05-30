@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 import { extname, join } from "node:path";
 
 const token = process.env.VERCEL_TOKEN;
-const projectName = process.env.VERCEL_PROJECT_NAME || "help-near-me";
+const projectName = process.env.VERCEL_PROJECT_NAME || "offeros";
 const root = process.cwd();
 const textExtensions = new Set([".css", ".html", ".js", ".json", ".mjs", ".txt"]);
 const staticFiles = [

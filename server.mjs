@@ -36,5 +36,5 @@ const server = createServer(async (request, response) => {
 });
 
 server.listen(port, host, () => {
-  console.log(`HelpNearMe is running at http://${host}:${port}`);
+  console.log(`OfferOS is running at http://${host}:${port}`);
 });
